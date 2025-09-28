@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Pusira Gasu</a>
+
+        <nav>
+            <a href="#home" class="active"> Home</a>
+            <a href="#about" >About Me</a>
+            <a href="#project">Project</a>
+            <a href="#skills">Skills</a>
+            <a href="#certificate">Certificate</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="profile.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, My name is <span>Phu</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>I created this portfolio website using HTML, CSS, and JavaScript. I designed it myself and learned everything through self-study and research. I made it to showcase my skills and to display the various projects I have worked on.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/pusira-gasu-phu-901651384/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Phusira" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/pphxs1ra_/?hl=th" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/pusiragasu/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-flex">
+            <div class="about-img-wrapper">
+                <img src="phu.jpg" alt="Phu" class="about-img-circle">
+            </div>
+            <div class="about-content">
+                <h2 class="about-title">About Me</h2>
+                <p class="about-desc">My name is Pusira Gasu, but you can call me Phu. I’m 18 years old and was born on July 2, 2007. I live in Nong Nam, Lamphun Province, Thailand. I'm currently studying at Chakkham Khanathon School in Lamphun, in the English arts program.
+
+Although my major is in languages, I have a strong interest in coding and web development. This passion has driven me to actively seek out knowledge and resources to pursue my goal of becoming a web developer in the future.
+
+My biggest inspiration is to become a software developer, and I’m doing my best to make that dream come true.</p>
+            
+            </div>
+        </div>
+    </section>
+    <section id="project">
+        <h2 class="skills-title">Project</h2>
+        <div class="project-gallery">
+
+            
+            <div class="project-item">
+                <img src="Dt.jpg" alt="English Dictionary Website" class="project-img">
+                <p class="project-desc">English Dictionary</p>
+                <button class="project-detail-btn" title="Show details">Details</button>
+                <div id="project-detail-popup" class="project-detail-popup">
+                    <div class="project-detail-popup-content">
+                        <span class="project-detail-popup-close">&times;</span>
+                        <div class="project-detail-popup-gallery">
+                            <img src="Dt.jpg" alt="English Dictionary Preview" class="project-detail-popup-img">
+                        </div>
+                        <h3>English Dictionary</h3>
+                        <ul style="margin-bottom: 1.5rem; text-align: left; line-height: 1.7;">
+                            <li><strong>Search</strong> for English words and definitions.</li>
+                            <li><strong>Show</strong> usage examples.</li>
+                            <li><strong>Responsive design</strong> for all devices.</li>
+                        </ul>
+                        <div style="text-align:center; margin-top:1.2rem;">
+                            <a href="https://phusira.github.io/Dictionary/" target="_blank" class="project-link-btn">Visit Website</a>
+                        </div>
+                        <div class="popup-skills-icons">
+                            <span class="popup-skill-text">HTML</span>
+                            <span class="popup-skill-text">CSS</span>
+                            <span class="popup-skill-text">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-detail" style="display:none;">
+                    <ul>
+                        <li>Search for English words and definitions</li>
+                        <li>Show usage examples</li>
+                        <li>Responsive design</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="ttt.jpg" alt="Tic Tac Toe Game" class="project-img">
+                <p class="project-desc">Tic Tac Toe Game</p>
+                <button class="project-detail-btn ttt-detail-btn" title="Show details">Details</button>
+                <div id="project-detail-popup-ttt" class="project-detail-popup">
+                    <div class="project-detail-popup-content">
+                        <span class="project-detail-popup-close ttt-popup-close">&times;</span>
+                        <div class="project-detail-popup-gallery">
+                            <img src="ttt.jpg" alt="Tic Tac Toe Preview" class="project-detail-popup-img">
+                        </div>
+                        <h3>Tic Tac Toe Game</h3>
+                        <ul style="margin-bottom: 1.5rem; text-align: left; line-height: 1.7;">
+                            <li><strong>A classic Tic Tac Toe game</strong> for two players.</li>
+                            <li><strong>Simple, fun, and easy</strong> to play.</li>
+                            <li><strong>Responsive design</strong> for all devices.</li>
+                        </ul>
+                        <div style="text-align:center; margin-top:1.2rem;">
+                            <a href="https://phusira.github.io/GameTicTacToe/" target="_blank" class="project-link-btn">Visit Website</a>
+                        </div>
+                        <div class="popup-skills-icons">
+                            <span class="popup-skill-text">HTML</span>
+                            <span class="popup-skill-text">CSS</span>
+                            <span class="popup-skill-text">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="weather.jpg" alt="Weather App" class="project-img">
+                <p class="project-desc">Weather App</p>
+                <button class="project-detail-btn weather-detail-btn" title="Show details">Details</button>
+                <div id="project-detail-popup-weather" class="project-detail-popup">
+                    <div class="project-detail-popup-content">
+                        <span class="project-detail-popup-close weather-popup-close">&times;</span>
+                        <div class="project-detail-popup-gallery">
+                            <img src="weather.jpg" alt="Weather App Preview" class="project-detail-popup-img">
+                        </div>
+                        <h3>Weather App</h3>
+                        <ul style="margin-bottom: 1.5rem; text-align: left; line-height: 1.7;">
+                            <li><strong>Check real-time weather</strong> for any city worldwide.</li>
+                            <li><strong>Displays</strong> temperature, humidity, and weather conditions.</li>
+                            <li><strong>Responsive design</strong> for all devices.</li>
+                        </ul>
+                        <div style="text-align:center; margin-top:1.2rem;">
+                            <a href="https://phusira.github.io/WeatherApp/" target="_blank" class="project-link-btn">Visit Website</a>
+                        </div>
+                        <div class="popup-skills-icons">
+                            <span class="popup-skill-text">HTML</span>
+                            <span class="popup-skill-text">CSS</span>
+                            <span class="popup-skill-text">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="healthy.jpg" alt="Healthy Dashboard" class="project-img">
+                <p class="project-desc">Healthy Dashboard</p>
+                <button class="project-detail-btn healthy-detail-btn" title="Show details">Details</button>
+                <div id="project-detail-popup-healthy" class="project-detail-popup">
+                    <div class="project-detail-popup-content">
+                        <span class="project-detail-popup-close healthy-popup-close">&times;</span>
+                        <div class="project-detail-popup-gallery">
+                            <img src="healthy.jpg" alt="Healthy Dashboard Preview" class="project-detail-popup-img">
+                        </div>
+                        <h3>Healthy Dashboard</h3>
+                        <ul style="margin-bottom: 1.5rem; text-align: left; line-height: 1.7;">
+                            <li><strong>Health application</strong> for tracking and managing your wellness.</li>
+                            <li><strong>Easy to use</strong> and suitable for all ages.</li>
+                            <li><strong>Responsive design</strong> for all devices.</li>
+                        </ul>
+                        <div style="text-align:center; margin-top:1.2rem;">
+                            <a href="https://phusira.github.io/Healthy-Dashboard/" target="_blank" class="project-link-btn">Visit Website</a>
+                        </div>
+                        <div class="popup-skills-icons">
+                            <span class="popup-skill-text">HTML</span>
+                            <span class="popup-skill-text">CSS</span>
+                            <span class="popup-skill-text">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-detail" style="display:none;">
+                    <ul>
+                        <li>Health application for tracking and managing your wellness</li>
+                        <li>Easy to use and suitable for all ages</li>
+                        <li>Responsive design for all devices</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="random.jpg" alt="Random Content" class="project-img">
+                <p class="project-desc">Random Content</p>
+                <button class="project-detail-btn random-detail-btn" title="Show details">Details</button>
+                <div id="project-detail-popup-random" class="project-detail-popup">
+                    <div class="project-detail-popup-content">
+                        <span class="project-detail-popup-close random-popup-close">&times;</span>
+                        <div class="project-detail-popup-gallery">
+                            <img src="random.jpg" alt="Random Content Preview" class="project-detail-popup-img">
+                        </div>
+                        <h3>Random Content</h3>
+                        <ul style="margin-bottom: 1.5rem; text-align: left; line-height: 1.7;">
+                            <li><strong>Random generator</strong> for fun and creativity.</li>
+                            <li><strong>Easy to use</strong> and interactive interface.</li>
+                            <li><strong>Responsive design</strong> for all devices.</li>
+                        </ul>
+                        <div style="text-align:center; margin-top:1.2rem;">
+                            <a href="https://phusira.github.io/Random-Content-Web/" target="_blank" class="project-link-btn">Visit Website</a>
+                        </div>
+                        <div class="popup-skills-icons">
+                            <span class="popup-skill-text">HTML</span>
+                            <span class="popup-skill-text">CSS</span>
+                            <span class="popup-skill-text">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-detail" style="display:none;">
+                    <ul>
+                        <li>Random generator for fun and creativity</li>
+                        <li>Easy to use and interactive interface</li>
+                        <li>Responsive design for all devices</li>
+                    </ul>
+                </div>
+            </div>
+                        <div class="project-item">
+                <img src="quiz.jpg" alt="Quiz Project" class="project-img">
+                <p class="project-desc">Quiz Project</p>
+                <button class="project-detail-btn quiz-detail-btn" title="Show details">Details</button>
+                <div id="project-detail-popup-quiz" class="project-detail-popup">
+                    <div class="project-detail-popup-content">
+                        <span class="project-detail-popup-close quiz-popup-close">&times;</span>
+                        <div class="project-detail-popup-gallery">
+                            <img src="quiz.jpg" alt="Quiz Project Preview" class="project-detail-popup-img">
+                        </div>
+                        <h3>Quiz Project</h3>
+                        <ul style="margin-bottom: 1.5rem; text-align: left; line-height: 1.7;">
+                            <li><strong>Interactive quiz</strong> for testing your knowledge.</li>
+                            <li><strong>Multiple question types</strong> and instant feedback.</li>
+                            <li><strong>Responsive design</strong> for all devices.</li>
+                        </ul>
+                        <div style="text-align:center; margin-top:1.2rem;">
+                            <a href="https://phusira.github.io/Quiz/" target="_blank" class="project-link-btn">Visit Website</a>
+                        </div>
+                        <div class="popup-skills-icons">
+                            <span class="popup-skill-text">HTML</span>
+                            <span class="popup-skill-text">CSS</span>
+                            <span class="popup-skill-text">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-detail" style="display:none;">
+                    <ul>
+                        <li>Interactive quiz for testing your knowledge</li>
+                        <li>Multiple question types and instant feedback</li>
+                        <li>Responsive design for all devices</li>
+                    </ul>
+                </div>
+            </div>
+    </section>
+    <section id="skills">
+        <h2 class="skills-title">Skills</h2>
+        <div class="skills-icons">
+            <div class="skill-icon html">
+                <i class="fa-brands fa-html5"></i>
+                <span>HTML5</span>
+            </div>
+            <div class="skill-icon css">
+                <i class="fa-brands fa-css3-alt"></i>
+                    <span>CSS</span>
+            </div>
+            <div class="skill-icon js">
+                <i class="fa-brands fa-js"></i>
+                <span>JavaScript</span>
+            </div>
+            <div class="skill-icon git">
+                <i class="fa-brands fa-git-alt"></i>
+                <span>Git</span>
+            </div>
+            <div class="skill-icon python">
+                <i class="fa-brands fa-python"></i>
+                <span>Python</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificate">
+    <h2 class="skills-title">Certificate</h2>
+    <div class="cert-gallery">
+        <img src="c1.jpg" alt="Certificate 1">
+        <img src="c2.jpg" alt="Certificate 2">
+        <img src="c3.jpg" alt="Certificate 3">
+        <img src="c4.jpg" alt="Certificate 4">
+        <img src="c5.jpg" alt="Certificate 5">
+        <img src="c6.jpg" alt="Certificate 6">
+        <img src="c7.jpg" alt="Certificate 7">
+        <img src="c8.jpg" alt="Certificate 8">
+        <img src="c9.jpg" alt="Certificate 9">
+        <img src="c10.jpg" alt="Certificate 10">
+    </div>
+    <div id="cert-lightbox" class="lightbox">
+        <span class="cert-lightbox-close">&times;</span>
+        <img class="cert-lightbox-img" src="" alt="Certificate Preview">
+    </div>
+    </section>
+    <script src="script.js"></script>
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const tttDetailBtn = document.querySelector('.ttt-detail-btn');
+    const tttPopup = document.getElementById('project-detail-popup-ttt');
+    const tttPopupClose = document.querySelector('.ttt-popup-close');
+    if(tttDetailBtn && tttPopup && tttPopupClose) {
+        tttDetailBtn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            tttPopup.classList.add('active');
+        });
+        tttPopupClose.addEventListener('click', function() {
+            tttPopup.classList.remove('active');
+        });
+        tttPopup.addEventListener('click', function(e) {
+            if (e.target === tttPopup) {
+                tttPopup.classList.remove('active');
+            }
+        });
+    }
+});
+document.addEventListener('DOMContentLoaded', function() {
+    const weatherDetailBtn = document.querySelector('.weather-detail-btn');
+    const weatherPopup = document.getElementById('project-detail-popup-weather');
+    const weatherPopupClose = document.querySelector('.weather-popup-close');
+    if(weatherDetailBtn && weatherPopup && weatherPopupClose) {
+        weatherDetailBtn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            weatherPopup.classList.add('active');
+        });
+        weatherPopupClose.addEventListener('click', function() {
+            weatherPopup.classList.remove('active');
+        });
+        weatherPopup.addEventListener('click', function(e) {
+            if (e.target === weatherPopup) {
+                weatherPopup.classList.remove('active');
+            }
+        });
+    }
+});
+</script>
+</body>
+</html>
